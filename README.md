@@ -1,2 +1,2 @@
-# HybridSigncryption
-A verifpal analysis for the proposed signcryption protocol
+# Hybrid Signcryption Verifpal codes
+A Verifpal analysis for the proposed signcryption protocol
