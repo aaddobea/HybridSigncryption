@@ -21,6 +21,9 @@ To replicate and extend our analysis, follow these steps:
 - `src/`: Contains the Verifpal scripts used for the analysis.
 - `docs/`: Documentation related to the Verifpal analysis, including findings and insights.
 
+### Abstract:  
+During the last few years, Implantable Medical Devices (IMDs) have evolved considerably. IMD manufacturers are now starting to rely on standard wireless technologies for connectivity. Moreover, there is an evolution towards open systems where the IMD can be remotely monitored or reconfigured through personal commercial-off-the-shelf devices such as smartphones or tablets. Nevertheless, a major problem that still remains unsolved today is the secure establishment of cryptographic keys between the IMD and such personal devices. Researchers have already proposed various solutions, most notably by relying on an additional external device. Unfortunately, these proposed approaches are either insecure, difficult to realise in practice, or are unsuitable for the latest generation of IMDs. Motivated by this, we present HAT, a secure and practical solution to provide \emph{fine-grained} and \emph{dynamic access control} for the next generation of IMDs, while offering full control and transparency to the patient. The main idea behind HAT is to shift the access control responsibilities from the IMD to an external device under the user’s control, such as a smartphone, acting as the IMD's Key Distribution Center. We show that HAT only introduces minimal energy and memory overhead and formally prove its security using Verifpal.
+
 ### How to Contribute
 
 We welcome contributions if you identify potential improvements, vulnerabilities, or have suggestions for enhancing the Verifpal analysis. Please follow the standard GitHub workflow:
