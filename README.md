@@ -4,7 +4,7 @@ Subject: Formal Verification of the Proposed Signcryption Protocol using Verifpa
 
 ### Overview
 
-This repository contains a comprehensive Verifpal analysis of the proposed signcryption protocol outlined in the associated paper. Verifpal, a powerful formal verification tool, was employed to assess the security properties of the protocol rigorously. The Verifpal software can be obtained from the official website: [Verifpal Website](https://verifpal.com).The suitable version can be downloaded and installed on your operating system.
+This repository contains a comprehensive Verifpal analysis of the proposed signcryption protocol outlined in the associated paper submitted to Computer Standdards and Interfaces. Verifpal, a powerful formal verification tool, was employed to assess the security properties of the protocol rigorously. The Verifpal software can be obtained from the official website: [Verifpal Website](https://verifpal.com).The suitable version can be downloaded and installed on your operating system.
 
 ### How to Use
 
@@ -52,3 +52,9 @@ This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.
 ---
 
 Feel free to customize this template based on your specific project details and preferences.
+
+### Authors
+Abigail Akosua Addobea
+QianMu Li
+Isaac Obiri Amankona
+Jun Hou
