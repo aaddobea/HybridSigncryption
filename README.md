@@ -54,7 +54,11 @@ This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.
 Feel free to customize this template based on your specific project details and preferences.
 
 ### Authors
-Abigail Akosua Addobea
-QianMu Li
-Isaac Obiri Amankona
-Jun Hou
+•	Abigail Akosua Addobea \
+•	QianMu Li \
+•	Isaac Obiri Amankona \
+•	Jun Hou
+
+
+
+
