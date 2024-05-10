@@ -22,7 +22,7 @@ To replicate and extend our analysis, follow these steps:
 - `docs/`: Documentation related to the Verifpal analysis, including findings and insights.
 
 ### Abstract:  
-During the last few years, Implantable Medical Devices (IMDs) have evolved considerably. IMD manufacturers are now starting to rely on standard wireless technologies for connectivity. Moreover, there is an evolution towards open systems where the IMD can be remotely monitored or reconfigured through personal commercial-off-the-shelf devices such as smartphones or tablets. Nevertheless, a major problem that still remains unsolved today is the secure establishment of cryptographic keys between the IMD and such personal devices. Researchers have already proposed various solutions, most notably by relying on an additional external device. Unfortunately, these proposed approaches are either insecure, difficult to realise in practice, or are unsuitable for the latest generation of IMDs. Motivated by this, we present HAT, a secure and practical solution to provide \emph{fine-grained} and \emph{dynamic access control} for the next generation of IMDs, while offering full control and transparency to the patient. The main idea behind HAT is to shift the access control responsibilities from the IMD to an external device under the user’s control, such as a smartphone, acting as the IMD's Key Distribution Center. We show that HAT only introduces minimal energy and memory overhead and formally prove its security using Verifpal.
+The inception of blockchain technology has triggered the deployment of public key methods to safeguard on-chain data. While most existing methods may be unsuitable for blockchain implementation, they further increase the network scalability due to the scheme’s complexity. Moreover, the storage of massive data on-chain also exacerbates the scalability issues. Therefore, in addressing such problems, this article proposes a lightweight hybrid signcryption scheme to secure patient medical data. To overcome storage limitations, the proposed method leverages decentralized offchain storage for managing vast medical data, thereby reducing the complexities associated with onchain execution. The off-chain mechanism generates a hash that links the off-chain data to on-chain storage. Subsequently, the patient encodes the encrypted data into a smart contract, which is verified by the doctor. A security analysis is performed with Verifpal to ensure the security strength of the proposed model. An in-depth experimental analysis is carried out to assess the computational and Communication outcomes and compare the suggested approach against other relevant methodologies. A decentralized off-chain experiment is conducted to evaluate the performance of signcrypted data on decentralized off-chain storage.
 
 ### How to Contribute
 
@@ -36,6 +36,9 @@ We welcome contributions if you identify potential improvements, vulnerabilities
 ### Disclaimer
 
 This Verifpal analysis is a living document, subject to updates and refinements. We encourage the community to engage, share insights, and collectively strengthen the security analysis of the proposed signcryption protocol.
+
+### Installing Verifpal
+Follow the official documentation https://verifpal.com/software/ to install Verifpal. After that you execute the Verifipal Protocol as folllows:./verifpal verify <model_to_verify>
 
 ### License
 
